@@ -1,0 +1,461 @@
+html {
+    background: #f7f7f7;
+}
+
+h1 { 
+    color: #696969; 
+    font-weight: bold; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3 { 
+    color: dimgray; 
+    font-weight: bold; 
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+
+}
+
+
+ol{
+  list-style-type: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #A9A9A9;
+}
+
+.bar {
+  float: left;
+}
+
+body{
+    margin-top:50px;
+ margin-right:150px;
+ margin-bottom:50px;
+ margin-left:150px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #f7f7f7;
+  color:#2F4F4F
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #696969;
+}
+
+
+
+
+
+
+
+
+
+
+/* on hover placeholder */
+
+input:hover::-webkit-input-placeholder, textarea:hover::-webkit-input-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-webkit-input-placeholder, textarea:hover:focus::-webkit-input-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::-moz-placeholder, textarea:hover::-moz-placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-moz-placeholder, textarea:hover:focus::-moz-placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+  color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+  color: white;
+  font-size: 0.875em;
+}
+
+input:hover:focus::-ms-placeholder, textarea:hover::focus:-ms-placeholder {
+  color: #cbc6c1;
+}
+
+#form {
+  position: relative;
+  width: 500px;
+  margin: 50px auto 100px auto;
+}
+
+.section_form{
+    background-color: #FFFFA0;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  padding-left: 100px;
+    box-shadow: 10px 5px 5px #808080;
+        border-radius: 40px 40px;    
+
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.section_media{
+    background-color: #FFFFA0;
+  padding-top: 10px;
+  padding-right: 400px;
+  padding-bottom: 10px;
+  padding-left: 400px;
+    box-shadow: 10px 5px 5px #808080;
+        border-radius: 40px 40px;  
+}
+
+input {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 0.875em;
+  width: 470px;
+  height: 50px;
+  padding: 0px 15px 0px 15px;
+  
+  background: transparent;
+  outline: none;
+  color: #726659;
+  
+  border: solid 3px #696969;
+  border-bottom: none;  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+input:hover {
+  background: #b3aca7;
+  color: white;
+}
+
+textarea {
+  width: 470px;
+  max-width: 470px;
+  height: 150px;
+  max-height: 200px;
+  padding: 15px;
+  
+  background: transparent;
+  outline: none;
+  
+  color: #726659;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 0.875em;
+  
+  border: solid 3px #696969;
+  
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+
+textarea:hover {
+  background: #b3aca7;
+  color: white;
+}
+
+#submit {
+  width: 506px;
+  
+  padding: 0;
+  margin: -5px 0px 0px 0px;
+  
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 0.875em;
+  color: #696969;
+  
+  outline:none;
+  cursor: pointer;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  border: solid 3px #696969;
+  border-top: none;
+}
+
+#submit:hover {
+  color: white;
+}
+
+
+/* -----------------------------------------
+  =CSS3 Loading animations
+-------------------------------------------- */
+
+/* =Elements style
+---------------------- */
+.load-wrapp {
+    width: 1010px;
+    height: 15px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 45px;
+    text-align: center;
+    background-color: #d8d8d8;
+}
+
+
+.square {
+    width: 20px;
+    height: 20px;
+    border-radius: 4px;
+    background-color: #FFFFA0;
+}
+
+/* =Animate the square
+------------------------ */
+
+
+
+.load-7 .square {animation: loadingG 10s cubic-bezier(.40,.20,.20,.40) infinite;}
+
+@keyframes loadingG {
+    0% {transform: translate(0,0) rotate(0deg);}
+    50% {transform: translate(980px,0) rotate(360deg);}
+    100% {transform: translate(0,0) rotate(0deg);}
+}
+
+/*réseaux sociaux*/
+
+a{
+  text-decoration:none;
+}
+
+/*button box as a whole*/
+
+.buttons {
+  padding-top:180px;
+}
+
+
+/*facebook button*/
+
+.left {
+	background:white;
+	height:50px;
+	width:200px;
+	margin:auto;
+	top:5px;
+	border:1px black solid;
+  border-bottom:0px
+}
+
+a.fb {
+	text-align:center;
+	padding-top:15px;
+	display:block;
+	letter-spacing: 12px;
+	margin-left:7px;
+	color:black;
+  
+}
+
+div.left:hover{
+	background-color:#3B5998;
+	color:white;
+}
+
+a.fb:hover{
+	color:white;
+}
+
+/*google button*/
+
+.left3 {
+	background:white;
+	height:50px;
+	width:200px;
+	margin:auto;
+	top:5px;
+	border:1px black solid;
+  border-top:0px;
+  border-bottom:0px
+}
+
+a.google {
+	text-align:center;
+	padding-top:15px;
+	display:block;
+	letter-spacing: 12px;
+	margin-left:7px;
+}
+
+div.left3:hover{
+	background-color:#D34836;
+	color:white;
+}
+
+a.google:hover{
+	color:white;
+}
+
+/*Social media button*/
+
+
+/* Wrapper */
+.icon-button {
+	background-color: white;
+	border-radius: 20px;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 1.3rem;
+	height: 2.6rem;
+	line-height: 2.6rem;
+	margin: 0 5px;
+	position: relative;
+	text-align: center;
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	        user-select: none;
+	width: 2.6rem;
+}
+
+/* Circle */
+.icon-button span {
+	border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+.icon-button:hover span {
+	width: 2.6rem;
+	height: 2.6rem;
+	border-radius: 20px;
+	margin: -1.3rem;
+}
+
+/* Icons */
+.icon-button i {
+	background: none;
+	color: white;
+	height: 2.6rem;
+	left: 0;
+	line-height: 2.6rem;
+	position: absolute;
+	top: 0;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 2.6rem;
+	z-index: 10;
+}
+
+
+/*
+
+Twitter blue:  #63CCEE;
+Facebook blue:  #507ABD;
+Google+: #EB6B52;
+LinkedIn: #1086C8;
+Pinterest #F05F5C;
+
+*/
+
+.facebook  {
+	background-color: rgba(80,122,189,.7);
+}
+.google-plus {
+	background-color: rgba(219,90,60,.7);
+}
+.linkedin {
+	background-color: rgba(16,134,200,.7);
+}
+.pinterest {
+	background-color: rgba(203,32,39,.7);
+}
+
+
+/*HOVER*/
+
+.facebook span {
+	background-color: rgba(80,122,189,.7);
+}
+.google-plus span {
+	background-color: rgba(219,90,60,.7); 
+}
+.linkedin span {
+	background-color: rgba(16,134,200,.7);
+}
+.pinterest span {
+	background-color: rgba(203,32,39,.7);
+}
+
+
+
+
+
+
+.icon-button:hover .icon-twitter,
+.icon-button:hover .icon-facebook,
+.icon-button:hover .icon-google-plus,
+.icon-button:hover .fa-tumblr,
+.icon-button:hover .fa-instagram,
+.icon-button:hover .fa-youtube,
+.icon-button:hover .fa-pinterest {
+	color: white;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+	  height: 1.6rem;
+	  line-height: 1.6rem;
+	  width: 1.6rem;
+  }
+    
+  .pinterest {
+   display: none; 
+  }
+
+}
